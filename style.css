@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to the full height of the viewport */
+    background-color: black;
+    margin: 0; /* Remove default margin */
+    
+}
+
+.container {
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15%;
+}
+
+input[type="text"]::placeholder {
+    text-align: center; /* Center the placeholder text */
+    
+}
